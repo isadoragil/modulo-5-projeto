@@ -1,0 +1,50 @@
+/* Reset CSS */
+
+/* Box sizing */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, blockquote, pre, form, fieldset, legend, input, button, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* List styling */
+ul, ol {
+    list-style: none;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Forms */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
