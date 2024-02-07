@@ -1,12 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, 
+section h2 {
+    font-family: 'Bungee', cursive;
+}
+
 header {    
     background-color: #2b0049;
     color: #fff;
 }
 
+header h1 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav li a{
@@ -16,14 +30,15 @@ header nav li a{
 .container {
     max-width: 1280px;
     width: 100%;
-    margin: 0 auto;    
+    margin: 0 auto;
+    padding: 10px 0;    
 }
 
-header .container, section .container {
+header .container, 
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 16px;
     flex-direction: row;
 }
 
@@ -33,4 +48,27 @@ header .container, section .container {
     
 .brands-list li{
     display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;        
+    color: #2b0049;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+
+section p {
+    margin-bottom: 16px;    
+}
+
+.store-front {
+    margin-right: 32px;
 }
