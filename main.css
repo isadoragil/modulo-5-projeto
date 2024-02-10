@@ -1,10 +1,12 @@
-body {
+body, input, textarea {
     font-family: 'Roboto', sans-serif;
 }
 
 header, 
 section h2,
-section h3 {
+section h3,
+form button,
+.top-button p {
     font-family: 'Bungee', cursive;
     font-weight: normal;
 }
@@ -92,6 +94,10 @@ section p {
     justify-content: space-between;
 }
 
+#about p {
+    text-align: justify;
+}
+
 form input,
 form textarea,
 form button {
@@ -103,8 +109,35 @@ form button {
 
 form textarea {
     resize: none;
+    height: 180px;
 }
 
 section h3 {
     margin-bottom: 16px;
+}
+
+form button {
+    background-color: #2b0049;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #613680;;
+}
+
+input:focus, textarea:focus {
+    outline-color: #2b0049;;
+}
+
+footer {
+    background-color: #2b0049;
+    color: #fff;
+    padding: 16px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
 }
